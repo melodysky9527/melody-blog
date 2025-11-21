@@ -33,33 +33,35 @@ const list = [
 	{
 		icon: ScrollOutlineSVG,
 		iconActive: ScrollFilledSVG,
-		label: '近期文章',
+		label: 'Blog',
 		href: '/blog'
 	},
-	{
+/*	{
 		icon: ProjectsOutlineSVG,
 		iconActive: ProjectsFilledSVG,
-		label: '我的项目',
+		label: 'Projects',
 		href: '/projects'
+	},
+*/	
+		{
+		icon: ShareOutlineSVG,
+		iconActive: ShareFilledSVG,
+		label: 'Share',
+		href: '/share'
 	},
 	{
 		icon: AboutOutlineSVG,
 		iconActive: AboutFilledSVG,
-		label: '关于网站',
+		label: 'About',
 		href: '/about'
 	},
-	{
-		icon: ShareOutlineSVG,
-		iconActive: ShareFilledSVG,
-		label: '推荐分享',
-		href: '/share'
-	},
-	{
+/*	{
 		icon: WebsiteOutlineSVG,
 		iconActive: WebsiteFilledSVG,
-		label: '优秀博客',
+		label: 'Bloggers',
 		href: '/bloggers'
 	}
+*/
 ]
 
 const extraSize = 8
